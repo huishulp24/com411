@@ -1,11 +1,11 @@
 print("Where should I look?")
 place = input()
-if(place == "in the bedroom"):
-  print("Where in the bedroom should I look?")
-  bedroom_place = input()
-  if(place == "in the cupboard"):
-    print("Found some mess but no battery.")
-  else:
+if (place == "in the bedroom"):
+    print("Where in the bedroom should I look?")
+    bedroom_place = input()
+    if (bedroom_place == "under the bed"):
+        print("Found some shoes but no battery")
+    else:
       print("Where should I look?")
       place = input()
       if(place == "in the bathroom"):
@@ -14,11 +14,6 @@ if(place == "in the bedroom"):
        if(bathroom_place == "in the bathtube"):
         print("Found a rubber duck but no battery")
       else:
-        print("Where should I look?")
-        place = input()
-        if(place == "in the lab"):
-         print("Where in the lab should I look?")
-         lap_place = input()
-         if(place == "on the table"):
-          print("Yes! I found my battery!")            
-        
+        print("I can not find anything!")
+else:
+  print("I found it!")
