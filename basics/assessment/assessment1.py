@@ -19,7 +19,7 @@ elif(user_input == "Exit"):
  print("You have chosen option number 5")
 else :
   print ("None")
-
+return
 
 choice = menu()
 print(choice)
