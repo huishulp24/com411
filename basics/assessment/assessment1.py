@@ -11,17 +11,22 @@ def menu():
  user_input = input("Choose one option:")
  if(user_input == "Load Data"): 
   print("You have chosen option number 1")
+  return None
  elif(user_input == "Process Data"):
   print("You have chosen option number 2")
+  return None
 
  elif(user_input == "Visualise Data"):
-  print("You have chosen option number 3") 
+  print("You have chosen option number 3")
+  return None
 
  elif (user_input == "Save Data"):
   print("You have chosen option number 4")
+  return None
 
  elif(user_input == "Exit"):
   print("You have chosen option number 5")
+  return None
  else:
   print("Error")
   return None
