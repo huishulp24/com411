@@ -21,4 +21,4 @@ def error(error_msg = "{error_msg}'"):
 
 error("{error_msg}'")
 
-git status
+

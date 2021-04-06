@@ -39,13 +39,15 @@ def process_type():
     :return: None if an invalid selection made otherwise an integer corresponding to a valid option
     """
 def process_type():
+
  print ("Menu\n") 
  print ("'Retrieve entity'")
  print ("'Retrieve entity detail'")
  print ("'Categorise entities by type'")
  print ("'Categorise entities by gravity'")
  print ("'Summarise entities by orbit'")
- user_input = input()
+
+ user_input = input("Choose one option:")
 if(user_input == 'Retrieve entity'):
   print("You have chosen option number 1")
 elif(user_input == 'Retrieve entity detail'):
@@ -59,4 +61,4 @@ elif(user_input == 'Summarise entities by orbit):
 else:
   print(return = "There is no such option!")
 
-
+process_type()
